@@ -14,6 +14,8 @@ import '@/styles/index.less'
 // 导入 rem 布局适配 文件
 import 'amfe-flexible'
 
+// 加载dayjs初始化配置
+import '@/utils/dayjs'
 Vue.config.productionTip = false
 
 Vue.use(Vant)
